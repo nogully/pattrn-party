@@ -1,0 +1,154 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  background-color: #2F2235;
+  color: #FFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*TYPOGRAPHY*/
+h1, h2 {
+  margin: 10px 40px;
+}
+
+h1, h3 {
+  font-weight: 300;
+  white-space:nowrap;
+}
+
+span {
+  color: #34D1D1;
+}
+
+h2, h4 {
+  font-weight: 600;
+}
+
+h4 {
+  border-bottom: 1px solid #D1D2D3;
+  font-size: 1rem;
+  padding: 0px 20px 20px 0px;
+  margin-right: 20px;
+}
+
+#div-rule-top {
+  height: 50%;
+  color: #FFF;
+} 
+
+#div-rule-bottom {
+  border-top: 1px solid #D1D2D3;
+  width: 100%;
+  color: #FFF;
+  height: 50%;
+} 
+
+/*STYLE WRAPPERS*/
+section {
+  width: 80vw;
+}
+
+#article-header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#crazy-wrap {
+  flex-direction: column;
+}
+
+
+/*ACCORDION*/
+.accordion-tabs {
+  border: 1px solid #D1D2D3;
+  display: flex;
+  flex-direction: column;
+}
+
+#tab-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.placeholder-image {
+  min-width: 200px;
+  margin: 10px;
+  background-color: #F2F2F2;
+  border: 1px solid #D1D2D3;
+}
+
+#tab-button-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#tab-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+/*TABS*/
+.tabs {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.tabs label {
+  order: 1; 
+  display: block;
+  padding: 1rem 2rem;
+  margin-right: 0.2rem;
+  cursor: pointer;
+  background: #D1D2D3;
+  font-weight: bold;
+}
+
+.tabs .tab {
+  order: 99;
+  flex-grow: 1;
+  width: 100%;
+  display: none;
+  padding: 1rem;
+  background: #fff;
+}
+
+.tabs input[type="radio"] {
+  display: none;
+}
+
+.tabs input[type="radio"]:checked + label {
+  background: #fff;
+}
+
+.tabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}
+
+
+
