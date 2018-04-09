@@ -53,6 +53,7 @@ h4 {
 #div-rule-top {
   height: 50%;
   color: #FFF;
+  width: 50px;
 } 
 
 #div-rule-bottom {
@@ -61,6 +62,21 @@ h4 {
   color: #FFF;
   height: 50%;
 } 
+
+#view-code {
+  align-items: center;
+  background-color: #2F2235;  
+  width: 120px;
+  justify-content: center;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.view-code {
+  color: #FFF;
+  text-decoration: none;
+}
 
 /*STYLE WRAPPERS*/
 section {
@@ -75,6 +91,15 @@ section {
 
 #crazy-wrap {
   flex-direction: column;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 100%;
 }
 
 
@@ -149,6 +174,5 @@ section {
 .tabs input[type="radio"]:checked + label + .tab {
   display: block;
 }
-
 
 
