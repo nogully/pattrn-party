@@ -53,7 +53,7 @@ h4 {
 #div-rule-top {
   height: 50%;
   color: #FFF;
-  width: 50px;
+  width: 600px;
 } 
 
 #div-rule-bottom {
@@ -179,6 +179,7 @@ section {
 
 .card-holder {
   display: grid;
+  justify-content: center;
   grid-template-columns: 30% 30% 30%;
   grid-template-rows: 30% 30% 30%;
   grid-template-areas: 
@@ -258,5 +259,43 @@ section {
 /* HEADER BAR  */
 
 nav {
-  
+  background-color: #D1D2D3;
+  color: #666;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+ul {
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.round-placeholder {
+  width: 50px;
+  border-radius: 25px;
+  border: 1px solid #DDD;
+  margin-left: 10px;
+}
+
+input {
+  height: 20px;
+  font-size: 1em;
+  background-color: #F2F2F2;
+  padding-left: 30px;
+}
+
+.fa-search {
+  margin-left: 10px
+}
+
+@media and max-width(400px) {
+
 }
