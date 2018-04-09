@@ -13,6 +13,14 @@ class HeaderBar extends Component {
           </div>
         </div>
         <nav>
+          <img className="round-placeholder" src="placeholder.png" />
+          <ul>
+            <li>Navigation Item 1</li>
+            <li>Navigation Item 2</li>
+            <li>Navigation Item 3</li>
+          </ul>
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <input type="text" placeholder="Search" />
         </nav>
        
         <div className="button-div">
