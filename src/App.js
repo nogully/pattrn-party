@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import Accordion from './Accordion'
+import Accordion from './Accordion';
+import FlexibleCards from './FlexibleCards';
+import HeaderBar from './HeaderBar';
+
 
 class App extends Component {
   render() {
@@ -12,6 +15,8 @@ class App extends Component {
         </header>
         <main>
           <Accordion />
+          <FlexibleCards />
+          <HeaderBar /> 
         </main>
       </div>
     );

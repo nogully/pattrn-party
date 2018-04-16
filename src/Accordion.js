@@ -8,10 +8,7 @@ class Accordion extends Component {
         <div id="article-header-wrapper">
           <h3>ACCORDION TABS</h3>
           <div id="crazy-wrap">
-            <div id="div-rule-top">.... .. . . . . . . . . .
-            ... ... ...... ... . . . . . . . .. . . . . .
-            .... . . . . . . . . . . . .... .
-            ............... </div>
+            <div id="div-rule-top"> </div>
             <div id="div-rule-bottom"></div>
           </div>
         </div>
@@ -80,7 +77,13 @@ class Accordion extends Component {
 
           </div>
         </article>
+        <div className="button-div">
+          <div id="view-code">
+            <a className="view-code" href="https://codepen.io/gnora/pen/geZLJO">VIEW CODE</a>
+          </div>
+        </div>
       </section>
+
     )
   }
 }
